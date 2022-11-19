@@ -13,6 +13,7 @@ public class UserPojo {
 	private int uid;
 	private String uname;
 	public int getUid() {
+		
 		return uid;
 	}
 	public void setUid(int uid) {

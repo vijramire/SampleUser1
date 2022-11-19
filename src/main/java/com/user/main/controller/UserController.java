@@ -22,6 +22,7 @@ public class UserController {
 	private UserService userService;
 	
 	@PostMapping("/add")
+	
 	public UserPojo addUsers(@RequestBody UserPojo userPojo) {
 		return userService.addUsers(userPojo);
 		
