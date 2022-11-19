@@ -14,8 +14,7 @@ public class UserService {
 
 	@Autowired
 	private UserRepo userRepo;
-	
-	
+		
 	public UserPojo addUsers(UserPojo userPojo) {
 		return userRepo.save(userPojo);
 		

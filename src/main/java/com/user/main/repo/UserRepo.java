@@ -7,5 +7,5 @@ import com.user.main.pojo.UserPojo;
 
 @Repository
 public interface UserRepo extends JpaRepository<UserPojo, Integer> {
-      
+        
 }
